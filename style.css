@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(195, 138, 158);
+}
+
+html {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tc {
+    width: 400px;
+    background-color: rgb(197, 225, 249);
+    padding: 80px 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 0%;
+    border-radius: 100px;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+#sub {
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    outline: none;
+    text-decoration: none;
+    background-color: rgb(206, 212, 213);
+
+}
+
+#sub:hover {
+    background: #c289ae;
+}
+
+#result {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #0d0d0d;
+}
